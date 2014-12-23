@@ -5,8 +5,10 @@ matplotlib funcitons used to visualize desnity plots made up of
 scatter points.
 
 #Install
+```
 python setup.py build
 python setup.py install
+```
 
 #New cubehelix colormaps
 ```
