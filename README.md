@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/8261/CKrawczyk/densityplot.svg)](http://dx.doi.org/10.5281/zenodo.13361)
+
+
 densityplot
 ===========
 
