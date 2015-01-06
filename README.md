@@ -13,6 +13,11 @@ python setup.py build
 python setup.py install
 ```
 
+##Dependencies
++ Numpy (1.9.0 or higher)
++ Scipy (0.14.0 or higher)
++ Matplotlib (1.4.0 or higher)
+
 #New cubehelix colormaps
 ```
 from densityplot import *
@@ -24,8 +29,8 @@ new_colormap_reverse = cm.cubehelix_purple_r
 
 #Full list of new colormaps
 
-![Cubehelix colormaps](./densityplot/examples/cubehelix_colormaps.png)
-![Cubehelix light colormaps](./densityplot/examples/cubehelix_light_colormaps.png)
+<img src="./densityplot/examples/cubehelix_colormaps.png" style="width:300">
+<img src="./densityplot/examples/cubehelix_light_colormaps.png" style="width:300">
 
 #density-scatter plot
 ```
