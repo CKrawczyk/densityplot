@@ -23,22 +23,9 @@ new_colormap_reverse = cm.cubehelix_purple_r
 ```
 
 #Full list of new colormaps
-```
-cubehelix_light
-cubehelix_purple
-cubehelix_red
-cubehelix_yellow
-cubehelix_green
-cubehelix_teal
-cubehelix_blue
 
-cubehelix_purple_l
-cubehelix_red_l
-cubehelix_yellow_l
-cubehelix_green_l
-cubehelix_teal_l
-cubehelix_blue_l
-```
+![Cubehelix colormaps](./densityplot/examples/cubehelix_colormaps.png)
+![Cubehelix light colormaps](./densityplot/examples/cubehelix_light_colormaps.png)
 
 #density-scatter plot
 ```
@@ -60,6 +47,8 @@ hex_contour(x, y, min_cnt=15, levels=3, std=True, smoothing=1,
             skwargs={'color': 'k'})
 ```
 
+![Density-scatter plot](./densityplot/examples/density_scatter.png)
+
 #hexbin subtract
 ```
 from densityplot import *
@@ -78,6 +67,12 @@ hex_difference((x1,y1),(x2,y2),show_all=True,color_bar=True,
                  'vmin':-180,'vmax':180})
 pl.show()
 ```
+##difference image
+![Hexbin subtract difference](./densityplot/examples/hex_bin_subtract_1.png)
+##data set 1
+![Hexbin subtract data set 1](./densityplot/examples/hex_bin_subtract_2.png)
+##data set 2
+![Hexbin subtract data set 2](./densityplot/examples/hex_bin_subtract_3.png)
 
 #custom divergent colormaps
 ```
@@ -102,6 +97,8 @@ imshow(Z, interpolation='nearest', cmap=dub_cm,
 colorbar()
 show()
 ```
+
+![Custom divergent colormaps](./densityplot/examples/divergent_colormap.png)
 
 #ND ellipsoid projection
 ```
@@ -158,3 +155,5 @@ ax6.vlines([mu,mu+sig[0],mu-sig[0],mu+sig[1],mu-sig[1]],0,a.max())
 
 show()
 ```
+
+![ND ellipsoid projection](./densityplot/examples/ND_ellipsoid_projection.png)
