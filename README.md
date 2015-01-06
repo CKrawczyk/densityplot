@@ -52,11 +52,11 @@ hex_contour(x, y, min_cnt=15, levels=3, std=True, smoothing=1,
 ```
 
 #hexbin subtract
-##data set 1
+####data set 1
 ![Hexbin subtract data set 1](./densityplot/examples/hex_bin_subtract_2.png)
-##data set 2
+####data set 2
 ![Hexbin subtract data set 2](./densityplot/examples/hex_bin_subtract_3.png)
-##difference image
+####difference image
 ![Hexbin subtract difference](./densityplot/examples/hex_bin_subtract_1.png)
 ```
 from densityplot import *
