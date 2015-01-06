@@ -19,7 +19,7 @@ python setup.py install
 + Matplotlib (1.4.0 or higher)
 
 #New cubehelix colormaps
-```
+```python
 from densityplot import *
 from pylab import *
 
@@ -32,7 +32,7 @@ new_colormap_reverse = cm.cubehelix_purple_r
 
 #density-scatter plot
 ![Density-scatter plot](./densityplot/examples/density_scatter.png)
-```
+```python
 from densityplot import *
 import pylab as pl
 pl.np.random.seed(0)
@@ -58,7 +58,7 @@ hex_contour(x, y, min_cnt=15, levels=3, std=True, smoothing=1,
 ![Hexbin subtract data set 2](./densityplot/examples/hex_bin_subtract_3.png)
 ####difference image
 ![Hexbin subtract difference](./densityplot/examples/hex_bin_subtract_1.png)
-```
+```python
 from densityplot import *
 import pylab as pl
 import numpy as np
@@ -78,7 +78,7 @@ pl.show()
 
 #custom divergent colormaps
 ![Custom divergent colormaps](./densityplot/examples/divergent_colormap.png)
-```
+```python
 from densityplot import *
 from pylab import *
  
@@ -103,7 +103,7 @@ show()
 
 #ND ellipsoid projection
 ![ND ellipsoid projection](./densityplot/examples/ND_ellipsoid_projection.png)
-```
+```python
 from densityplot import *
 from pylab import * 
 N=10000 
