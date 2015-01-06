@@ -29,8 +29,8 @@ new_colormap_reverse = cm.cubehelix_purple_r
 
 #Full list of new colormaps
 
-[[./densityplot/examples/cubehelix_colormaps.png]]
-[[./densityplot/examples/cubehelix_light_colormaps.png]]
+![Cubehelix colormaps](./densityplot/examples/cubehelix_colormaps.png)
+![Cubehelix light colormaps](./densityplot/examples/cubehelix_light_colormaps.png)
 
 #density-scatter plot
 ```
