@@ -28,10 +28,10 @@ new_colormap_reverse = cm.cubehelix_purple_r
 ```
 
 ###Full list of new colormaps
-![Cubehelix colormaps](./densityplot/examples/cubehelix_colormaps.png)
+![Cubehelix colormaps](./examples/cubehelix_colormaps.png)
 
 #density-scatter plot
-![Density-scatter plot](./densityplot/examples/density_scatter.png)
+![Density-scatter plot](./examples/density_scatter.png)
 ```python
 from densityplot import *
 import pylab as pl
@@ -53,11 +53,11 @@ hex_contour(x, y, min_cnt=15, levels=3, std=True, smoothing=1,
 
 #hexbin subtract
 ####data set 1
-![Hexbin subtract data set 1](./densityplot/examples/hex_bin_subtract_2.png)
+![Hexbin subtract data set 1](./examples/hex_bin_subtract_2.png)
 ####data set 2
-![Hexbin subtract data set 2](./densityplot/examples/hex_bin_subtract_3.png)
+![Hexbin subtract data set 2](./examples/hex_bin_subtract_3.png)
 ####difference image
-![Hexbin subtract difference](./densityplot/examples/hex_bin_subtract_1.png)
+![Hexbin subtract difference](./examples/hex_bin_subtract_1.png)
 ```python
 from densityplot import *
 import pylab as pl
@@ -77,7 +77,7 @@ pl.show()
 ```
 
 #custom divergent colormaps
-![Custom divergent colormaps](./densityplot/examples/divergent_colormap.png)
+![Custom divergent colormaps](./examples/divergent_colormap.png)
 ```python
 from densityplot import *
 from pylab import *
@@ -102,7 +102,7 @@ show()
 ```
 
 #ND ellipsoid projection
-![ND ellipsoid projection](./densityplot/examples/ND_ellipsoid_projection.png)
+![ND ellipsoid projection](./examples/ND_ellipsoid_projection.png)
 ```python
 from densityplot import *
 from pylab import * 
