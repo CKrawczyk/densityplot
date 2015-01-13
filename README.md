@@ -157,3 +157,16 @@ ax6.vlines([mu,mu+sig[0],mu-sig[0],mu+sig[1],mu-sig[1]],0,a.max())
 
 show()
 ```
+
+#Citation
+If you use this code in your published work please use the following citation:
+```TeX
+@article{Krawczyk:13361,
+      author        = "Coleman Krawczyk and Tina Peters",
+      title         = "{densityplot: v1.0.0}",
+      month         = "Dec",
+      year          = "2014",
+      doi           = "{10.5281/zenodo.13361}",
+      url           = "{http://dx.doi.org/10.5281/zenodo.13361}",
+}
+```
